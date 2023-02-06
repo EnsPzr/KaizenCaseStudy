@@ -5,4 +5,4 @@ Part 2: It contains a project that generates receipt information for the cash re
 You can open the project with visual studio or rider.<br />
 To run projects:<br />
 dotnet run --project CodeGenerator<br />
-dotnet run --project Ticket.API
+dotnet run --project Ticket.API and open http://localhost:5003

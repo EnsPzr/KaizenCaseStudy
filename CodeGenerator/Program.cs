@@ -4,16 +4,19 @@
 var code = CodeGenerator.CodeGenerator.GenerateCode();
 //generated code check
 var isCorrect = CodeGenerator.CodeGenerator.CheckCode(code);
-Console.WriteLine(isCorrect.ToString());
+Console.WriteLine("code: "+ code + " is correct: "+isCorrect);
 
 //check not correct code
-isCorrect = CodeGenerator.CodeGenerator.CheckCode("E9ELH75A");
-Console.WriteLine(isCorrect.ToString());
+code = "E9ELH75A";
+isCorrect = CodeGenerator.CodeGenerator.CheckCode(code);
+Console.WriteLine("code: "+ code + " is correct: "+isCorrect);
 
 //check not correct code
-isCorrect = CodeGenerator.CodeGenerator.CheckCode("E9BLH74A");
-Console.WriteLine(isCorrect.ToString());
+code = "E9BLH74A";
+isCorrect = CodeGenerator.CodeGenerator.CheckCode(code);
+Console.WriteLine("code: "+ code + " is correct: "+isCorrect);
 
 //check not correct code
-isCorrect = CodeGenerator.CodeGenerator.CheckCode("E9LH74A");
-Console.WriteLine(isCorrect.ToString());
+code = "E9LH74A";
+isCorrect = CodeGenerator.CodeGenerator.CheckCode(code);
+Console.WriteLine("code: "+ code + " is correct: "+isCorrect);
